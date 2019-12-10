@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './components/app'
+import App from './components/app/app'
 
-import './index.css'
+import '../src/components/comment-list/commentList.css'
 
 ReactDOM.render(<App />, document.getElementById('root'))
